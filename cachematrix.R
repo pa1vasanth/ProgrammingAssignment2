@@ -1,6 +1,8 @@
+## cachematrix.R---> by pavan vasanth
+
 ## A pair of functions that cache the Inverse of a matrix
 ##  This functions creates a special "matrix" object that can cache its inverse
-
+##<<- operator is used to assign a value to an object in an environment that is different from current environment 
 makeCacheMatrix <- function(x = matrix()) {
         inv <- NULL
         set <- function(y){
